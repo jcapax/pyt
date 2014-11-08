@@ -7,7 +7,7 @@ class Animal(object):
 
 class Canino(Animal):
 	def __init__(self, nombre):
-		super(Canino.self).__init__(nombre)
+		super(Canino, self).__init__(nombre)
 		self.raza = "pastor aleman"
 
 perrito = Canino("ruffo")
